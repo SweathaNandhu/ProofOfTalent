@@ -121,3 +121,24 @@
     @apply cursor-pointer;
   }
 }
+
+@layer components {
+  .card {
+    @apply bg-gradient-to-b from-gray-900/60 to-gray-800/60 
+           border border-gray-700 
+           rounded-2xl 
+           p-8 
+           shadow-lg 
+           transition 
+           hover:shadow-xl 
+           hover:border-purple-500/50;
+  }
+
+  .btn-primary {
+    @apply inline-block px-6 py-2 
+           rounded-xl 
+           bg-gradient-to-r from-blue-500 to-purple-500 
+           text-white font-medium 
+           hover:opacity-90;
+  }
+}
