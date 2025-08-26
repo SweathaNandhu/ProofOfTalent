@@ -1,61 +1,101 @@
-<p>&nbsp;</p>
-<p align="center">
-<img src="https://github.com/andromedaprotocol/andromeda-nextjs-application-starter/blob/main/public/Andromeda-Logo.png" width=1000>
-</p>
+# 🌟 Proof of Talent — Showcase Your Skills on the Blockchain
 
-# About
 
-The Andromeda Next.js Application Starter is a base setup for developers to start building without having to worry about the prerequisites. Containing all the key parts needed, it allows you to set up in minutes and start working on your builds. The starter contains the following setups:
 
-- Keplr integration
-- Andromeda Client (Devnet)
-- GraphQL integration
-- Contract execution hooks
+---
 
-Using this as a starting template, any developer can create their own nextjs application with custom embeddables that suit their needs.
+💭 **What is Proof of Talent?**
 
-**Notes**:
+Proof of Talent is a **web-based dApp** that lets individuals **mint NFTs as proof of their skills** on the **Andromeda blockchain**.  
+Every NFT represents a **verifiable skill credential**, giving people a way to prove their talent transparently, securely, and without bias.  
 
-- It mainly uses Chakra UI, but developers can install any styling library, such as Tailwind, for example.
-- This setup is currently using our Devnet (Testnet for Devs). If you encounter any issues connecting to the GraphQL or chain, please contact us for support.
+With Proof of Talent, users can:
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- 🎨 **Mint skill NFTs** tied to their expertise  
+- 🔍 **Explore** all minted skills across the platform  
+- 👤 **View profiles** of creators and contributors  
+- 👍 **Endorse others** with reputation tokens (CW20)  
 
-## Getting Started
+It’s your **on-chain resume** — tamper-proof, verifiable, and community-driven.  
 
-First, run the development server:
+---
 
-```bash
-npm i
-# then
-npm run dev
-# or
-yarn dev
-```
+💡 **Why We Built This**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Traditional resumes are **self-reported, unverifiable, and biased**. Platforms like LinkedIn suffer from skill inflation and fake achievements.  
+DAOs and decentralized communities also struggle with **trust & reputation** when onboarding contributors.  
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+We built Proof of Talent to:  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- ✅ Create **trustless, transparent skill verification**  
+- ✅ Give individuals **ownership of their credentials**  
+- ✅ Enable **community validation** through endorsements  
+- ✅ Showcase **verifiable proof of talent** for hiring & collaborations  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+🧠 **Architecture Overview**
 
-To learn more about Next.js, take a look at the following resources:
+Proof of Talent combines **Next.js** frontend with **Andromeda ADO components**:  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **CW721 (NFTs):** Each skill is minted as an NFT with metadata (skill name, level, proof link).  
+- **CW20 (Reputation):** Optional tokens to represent endorsements ("likes").  
+- **Queries:** Fetch all NFTs via `all_tokens` and display across the app.  
+- **Permissions:** Ensure only rightful users can mint/update their skills.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+✨ **Features**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Feature | Description |
+|---------|-------------|
+| 🎨 Skill Minting | Create NFTs representing verifiable skills |
+| 🔍 Explore | Browse all minted skills across users |
+| 👤 Profile | View all skills owned by a wallet |
+| 👍 Endorsements | Add reputation via CW20 tokens |
+| 🔗 Blockchain-Backed | Powered by AndromedaOS ADOs (CW721, CW20) |
+| 🌐 Wallet Integration | Connect wallet to interact with the chain |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
 
-## Licensing
+🧰 **Tech Stack**
 
-[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
+- ⚛️ **Next.js 14** — React framework (App Router)  
+- 🎨 **Tailwind CSS** — Styling framework  
+- 🔗 **AndromedaOS (CW721, CW20)** — Smart contract components  
+- 🔐 **CosmJS** — Blockchain transactions & queries  
+- 🗂 **Zustand** — State management (wallet, user session)  
+- 🌍 **Vercel** — Hosting & deployment  
+
+---
+
+📸 **Preview**
+
+Screenshots will go here:  
+
+- Landing Page
+
+  <img width="960" height="483" alt="homepagea" src="https://github.com/user-attachments/assets/f77469d4-d862-404e-bc42-35b230f76e37" />
+  
+- Mint Skill NFT
+  <img width="960" height="416" alt="mintpage" src="https://github.com/user-attachments/assets/3044eb03-ab70-4751-8ef6-4f3b802a677b" />
+
+- About NFTs
+- <img width="948" height="422" alt="aboiutpg" src="https://github.com/user-attachments/assets/0fdc53a4-01ac-4c35-aa07-82e0cb0d4c8b" />
+  
+ Explore
+ <img width="952" height="414" alt="explorer" src="https://github.com/user-attachments/assets/8518374d-f21e-465d-b7d8-1abaccb895f9" />
+
+
+---
+
+🧑‍💻 **Author**
+
+👩‍💻 Swetha Ganesh  
+
+
+
+---
+
+🚀 Proof of Talent makes resumes **trustless, decentralized, and verifiable**.  
+The future of reputation starts here.  
