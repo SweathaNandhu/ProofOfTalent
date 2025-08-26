@@ -83,10 +83,13 @@ Screenshots will go here:
 - About NFTs
 - <img width="948" height="422" alt="aboiutpg" src="https://github.com/user-attachments/assets/0fdc53a4-01ac-4c35-aa07-82e0cb0d4c8b" />
   
- Explore
+- Explore
  <img width="952" height="414" alt="explorer" src="https://github.com/user-attachments/assets/8518374d-f21e-465d-b7d8-1abaccb895f9" />
 
 
+---
+🚀 Proof of Talent makes resumes **trustless, decentralized, and verifiable**.  
+The future of reputation starts here.  
 ---
 
 🧑‍💻 **Author**
@@ -98,5 +101,4 @@ Screenshots will go here:
 
 ---
 
-🚀 Proof of Talent makes resumes **trustless, decentralized, and verifiable**.  
-The future of reputation starts here.  
+
