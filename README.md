@@ -93,6 +93,7 @@ Screenshots will go here:
 
 👩‍💻 Swetha Ganesh  
 
+![Profile views](https://komarev.com/ghpvc/?username=SweathaNandhu&label=Profile%20views&color=0e75b6&style=flat)
 
 
 ---
